@@ -1,0 +1,26 @@
+body{
+    padding: 10px;
+}
+.caja{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    text-align: center;
+    border: 10px solid black;
+    margin: 10px;
+    /**OJO PIOJO **/
+    box-sizing: border-box; /**hace que todo el cuadrado ocupe un mismo tamaño**/
+    align-items: center; /**centra vertical **/
+    justify-content: center; /**centra horizontalmente **/
+    /**align-items y justify-content se centra en medio del cuadrado **/
+    
+
+
+    display: flex;
+    float: left;
+}
+/**este limpia el float **/
+.clearfix{
+    float: none;
+    clear: both;
+}
